@@ -1,14 +1,13 @@
-
 import './App.css'
+import { Supervisor } from './components/Supervisor'
 
 function App() {
 
   return (
-    <>
-      <h1 className='underline'>hola</h1>
+    <div className='flex flex-col justify-center items-center font-poppins'>
+      <Supervisor />
 
-
-    </>
+    </div>
   )
 }
 
