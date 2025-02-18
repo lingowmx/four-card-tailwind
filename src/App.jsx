@@ -8,7 +8,8 @@ import { Principal } from './components/Principal'
 function App() {
 
   return (
-    <div className='flex flex-col justify-center items-center font-poppins gap-8'>
+    <div className='flex flex-col justify-center items-center font-poppins gap-8
+    xl:grid grid-cols-6 xl:grid-rows-4 xl:place-items-center'>
       <Principal />
       <Supervisor />
       <TeamBuilder />

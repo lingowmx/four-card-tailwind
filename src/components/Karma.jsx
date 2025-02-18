@@ -8,6 +8,7 @@ export const Karma = () => {
       title="Karma"
       description="Uses data from past projects to provide better delivery estimates"
       image={karmaImage}
+      className="xl:row-start-3 xl:col-start-3 xl:col-end-5"
     >
     </Layout>
   )
