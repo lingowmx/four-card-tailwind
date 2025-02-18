@@ -2,8 +2,8 @@ import PropTypes from "prop-types"
 
 export const Layout = ({ colorLine, title, description, image }) => {
   return (
-    <div className="border border-red w-80 h-72 rounded-lg">
-      <div className={`w-full h-2 rounded-lg ${colorLine}`} ></div>
+    <div className=" w-80 h-72 rounded-lg shadow-lg shadow-gray-400 mb-4">
+      <div className={`w-[316px] mx-auto h-1 rounded-sm ${colorLine}`} ></div>
       <div className="h-64 p-8">
         <h1 className="text-grey500 font-semibold text-2xl mb-2">{title}</h1>
         <p className="text-grey400 tracking-normal font-normal text-[14px] leading-6">{description}</p>
