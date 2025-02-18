@@ -8,7 +8,7 @@ export const TeamBuilder = () => {
       title="Team Builder"
       description="Scans our talent network to create the optimal team for your project"
       image={iconTeamBuilder}
-      className="xl:row-start-2 xl:row-end-3 xl:col-start-3 xl:col-span-2"
+      className="xl:row-start-2 xl:row-end-3 xl:col-start-2 xl:col-end-5"
     >
 
     </Layout>
